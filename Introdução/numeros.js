@@ -13,8 +13,9 @@ const media = total / 2
 console.log(media)
 console.log(media.toFixed(1)) // Método Number para definir a quantidade de casas decimais
 
-/* JavaScript permite algumas interações 
-* diferentes de outras linguagens
+/* 
+JavaScript permite algumas interações 
+diferentes de outras linguagens
 */
 let divisaoPorZero = 10 / 0
 console.log(divisaoPorZero)
