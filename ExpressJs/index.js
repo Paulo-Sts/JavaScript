@@ -1,16 +1,21 @@
 const express = require('express')
 const funcaoTeste = require('./exemploMiddleware')
+const bodyParser = require('body-parser')
 
 //instanciando o express
 const app = express() //Por meio da aplicação instanciada é definido a construção da Api
 
-app.use('/teste',(req, res, next) => { //O next é a implementação do padrão middleware que integra a chamada de métodos de acordo com a sua responsabilidade
+/*app.use('/teste',(req, res, next) => { //O next é a implementação do padrão middleware que integra a chamada de métodos de acordo com a sua responsabilidade
     console.log('Teste1')
     next()
-})
+})*/
 
 //Usando um middleware
-app.use(funcaoTeste)
+//app.use(funcaoTeste)
+
+app.get('/cliente/:id', (req, res) => {
+    res.send(`Cliente ${req.params.id} selecionado`)
+})
 
 app.get('/teste',(req, res, next) => {
     //Tipos de Resposta
