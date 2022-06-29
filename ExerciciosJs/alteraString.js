@@ -7,8 +7,6 @@ console.log(extrai)
 console.log(nome)
 
 
-
-
 // console.log(techs[0].replace(techs[0].slice(0,1),'A'))
 
 let techs = ['front', 'back' , 'full']
