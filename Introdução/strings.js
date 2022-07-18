@@ -1,4 +1,4 @@
-//Strings são cadeias de caracteres, elas são definidas entre aspas simples ou duplas ou entre crase
+//Strings são cadeias de caracteres, elas são definidas entre aspas simples ou duplas ou entre crase.
 
 const meuNome = "Paulo"
 const meuSegundoNome = 'Eduardo'

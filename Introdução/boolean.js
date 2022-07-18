@@ -1,4 +1,4 @@
-//O JavaScript possuí uma mairo flexibilidade para representar valores lógicos, além do true e false
+//O JavaScript possuí uma maior flexibilidade para representar valores lógicos, além do true e false
 
 let valor1 = true
 let valor2 = false

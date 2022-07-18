@@ -1,4 +1,4 @@
-//São operadores binários, ou seja, usam dois operandos para realizar a operação
+// São operadores binários, ou seja, usam dois operandos para realizar a operação.
 
 let [a, b, c, d, e] = [30, 5, 60, 34, 78] //Criando 4 variáveis a partir de um destructuring de um array
 
