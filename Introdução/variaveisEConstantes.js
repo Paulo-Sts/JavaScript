@@ -15,7 +15,7 @@ console.log(numeroUm, numeroDois)
 const pi = 3.14
 
 /*
-OBS: Em javascript existe uma propriedade chamada de hosting(içamento) que é a ação de a linguagem 
+OBS: Em javascript existe uma propriedade chamada de hoisting(içamento) que é a ação de a linguagem 
 mover a declaração de um var para o topo no momento de interpretar o código, fazendo assim com que uma
 uma variável declarada depois de ser chamada seja considerada válida.
 */

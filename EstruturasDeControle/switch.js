@@ -1,4 +1,4 @@
-//O switch define a execução de sentenças para um determinado valor ou valores
+// O switch define a execução de um bloco de código para um determinado valor ou valores.
 
 let resultadoEscola = function(nota){
     switch(Math.floor(nota)){

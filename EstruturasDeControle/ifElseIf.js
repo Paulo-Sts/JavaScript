@@ -1,4 +1,4 @@
-//Podemos encadear vários ifs, cada um para uma condição
+// Podemos encadear vários ifs, cada um para uma condição
 
 let imprimeResultado = function(resultado){
     
