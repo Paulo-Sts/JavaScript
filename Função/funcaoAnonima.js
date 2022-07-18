@@ -1,4 +1,4 @@
-//Funções Anônimas são Funções sem nome
+// Funções Anônimas são Funções sem nome
 
 const soma = function(a,b){
     return a + b
@@ -25,7 +25,7 @@ imprimeResultado(2, 2, subtraçao)
 imprimeResultado(2, 2, divisao)
 imprimeResultado(2, 2, multiplicaçao)
 
-//Também pode ser usada como atributo de um objeto
+// Também pode ser usada como atributo de um objeto
 
 const cachorro = {
     latir: function(){

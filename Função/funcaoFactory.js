@@ -1,4 +1,4 @@
-//Funções Factory são usadas para a partir de uma função criar objetos
+// Funções Factory são usadas para a partir de uma função criar objetos
 
 function criaCarro(nome, ano, cor){
     return{

@@ -1,18 +1,18 @@
-//O this é uma propriedade que referencia o objeto, porém em Js em algumas situações o this pode se comportar de forma diferente
+// O this é uma propriedade que referencia o objeto, porém em Js em algumas situações o this pode se comportar de forma diferente
 
 const carro = {
     ronco: "OMMMMMM",
     ligar() {
-        console.log(this.ronco) //O this faz referência ao atributo ronco do objeto carro
+        console.log(this.ronco) // O this faz referência ao atributo ronco do objeto carro
     }
 }
 
 carro.ligar()
 
-let teste1 = carro.ligar //A referência muda e o this dentro da função aponta como underfined
+let teste1 = carro.ligar // A referência muda e o this dentro da função aponta como underfined
 teste1()
 
-let teste2 = carro.ligar.bind(carro) //O bind é uma função que define uma referência fixa para o this
+let teste2 = carro.ligar.bind(carro) // O bind é uma função que define uma referência fixa para o this
 teste2()
 
 /*
