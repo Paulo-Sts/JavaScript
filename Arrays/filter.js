@@ -1,4 +1,4 @@
-//Esse método filtra os valores do array de acordo com uma condição e retorna true ou false
+// Esse método filtra os valores do array de acordo com uma condição e retorna true ou false
 const produtos = [
     {nome: "Monitor", preco: 700.0, fragil: true},
     {nome: "Celular", preco: 1400.0, fragil: true},

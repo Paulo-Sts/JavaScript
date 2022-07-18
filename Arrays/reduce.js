@@ -1,4 +1,4 @@
-//Esse método transforma um array em outros tipos
+// Esse método transforma um array em outros tipos
 const alunos =[
     {nome: "João", nota: 7.3, bolsista: false},
     {nome: "Maria", nota: 9.7, bolsista: true},

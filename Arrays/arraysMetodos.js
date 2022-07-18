@@ -22,6 +22,6 @@ console.log(pilotos)
 pilotos.splice(4, 1) //Retira um elemento na posição 4 do array
 console.log(pilotos)
 
-//Método que cria um novo array a partir de outro em uma posição definida
+// Método que cria um novo array a partir de outro em uma posição definida
 const pilotos2 = pilotos.slice(2) //Cria um novo array a partir da posição 5
 console.log(pilotos2)

@@ -15,3 +15,21 @@ console.log("7)Maior ou igual a: ", 3 >= 1)
 console.log("8)Menor ou igual a: ", 100 <= 40)
 
 console.log("9)Exemplo extra: ", undefined == null, undefined === null)
+
+
+// Outros operadores relacionais
+
+// in
+// Retorna verdadeiro se a propriedade especificada existir no objeto especificado
+
+let carro = {
+    cor: "Azul"
+}
+
+console.log("cor" in carro) // A propriedade deve ser especificada em forma de string.
+
+// instanceof
+// Retorna verdadeiro se o objeto especificado for do tipo de objeto especificado
+
+let novoArray = []
+console.log(novoArray instanceof Array)
