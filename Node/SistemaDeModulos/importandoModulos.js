@@ -1,8 +1,8 @@
-//Para imortar módulos usamos o require()
+// Para imortar módulos usamos o require()
 
 const importandoModulos = require('./exportandoModulos')
 
-//Usando módulos importados
+// Usando módulos importados
 
 console.log(importandoModulos.segundaMensagem)
 

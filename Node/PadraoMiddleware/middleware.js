@@ -1,4 +1,4 @@
-//Exemplo Padrão Middleware
+// Exemplo Padrão Middleware
 
 /*
 As funcionalidades são executadas em blocos individuais em que cada 
@@ -6,6 +6,7 @@ função executa sua tarefa e tendo sucesso chama uma função que vai iniciar
 o próximo passo, dessa forma é retirado o acoplamento entre as funções, pois
 cada uma executa sua responsabilidade de forma independente
 */
+
 const passo1 = (ctx, next) =>{
     ctx.valor1 = 'mid1'
     next()

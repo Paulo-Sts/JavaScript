@@ -1,1 +1,1 @@
-//O arquivo package.json, define todas as dependências do projeto.
+// O arquivo package.json, define todas as dependências do projeto.
