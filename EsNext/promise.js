@@ -1,7 +1,8 @@
-//O promise é utilizado para executar uma operação de forma assíncrona
-//A forma comum de funcionamento da promise é ela ser executada ou não, por exemplo através de um callback
+// O promise é utilizado para executar uma operação de forma assíncrona
+// A forma comum de funcionamento da promise é ela ser executada ou não, por exemplo através de um callback
 
-//Exemplo
+// Exemplo
+
 function falarDepoisDe(segundos, frase){
     return new Promise((resolve, reject) => {
         setTimeout(() =>{
