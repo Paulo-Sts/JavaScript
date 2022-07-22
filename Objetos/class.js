@@ -1,5 +1,5 @@
-//Uma outra forma de definir objetos é usando a notação de class
-//Class em javascript são convertidos em funções
+// Uma outra forma de definir objetos é usando a notação de class
+// Class em javascript são convertidos em funções
 class Lancamento {
     constructor(nome = "qualquer", valor = 0){
         this.nome = nome

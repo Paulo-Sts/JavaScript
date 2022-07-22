@@ -3,8 +3,8 @@ function Aula(nome, videoId){
     this.videoId = videoId
 }
 
-const aula1 = new Aula("Bem vindo", 123)
-const aula2 = new Aula("Até mais", 456)
+//const aula1 = new Aula("Bem vindo", 123)
+//const aula2 = new Aula("Até mais", 456)
 console.log(aula1, aula2)
 
 //Simulando o operador new

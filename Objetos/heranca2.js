@@ -1,10 +1,10 @@
-//Exemplo cadeia de protótipos
+// Exemplo cadeia de protótipos
 const avo = {
     attr1: "A"
 }
 
 const pai = {
-    __proto__:avo, attr2: "B" //Com o __proto__: objeto pai definimos de qual objeto é herdado
+    __proto__:avo, attr2: "B" // Com o __proto__: objeto pai definimos de qual objeto é herdado
 }
 
 const filho = {
@@ -13,7 +13,7 @@ const filho = {
 
 console.log(filho.attr1, filho.attr2, filho.attr3)
 
-//Método para definir relação de herança entre objetos
+// Método para definir relação de herança entre objetos
 const carro = {
     velAtual: 0,
     velMax: 200,
@@ -40,7 +40,7 @@ const volvo = {
     }
 }
 
-//Método que estabelece relação entre objetos
+// Método que estabelece relação entre objetos
 Object.setPrototypeOf(ferrari, carro)
 Object.setPrototypeOf(volvo, carro)
 
