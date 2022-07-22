@@ -1,4 +1,4 @@
-// O slice remove uma seção do array e retorna o novo comprimento do array
+// O slice remove uma seção do array e retorna o novo comprimento do array, também é possível copiar o array em um novo
 
 let numeros = [1, 2, 3, 4, 5, 6]
 
