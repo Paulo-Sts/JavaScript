@@ -11,7 +11,7 @@ console.log(meuNome.replace("P", "S")) //subtitui um caractere por outro
 console.log(meuNome.substring(2)) //retorna um intervalo dos caracteres
 console.log('Paulo, Eduardo, dos, Santos'.split(",")) //converte literais em um array
 
-//A definição de strings utilizando a crase permite adicionar expressões e quebras de linha
+//A definição de strings utilizando a crase(template string) permite adicionar expressões e quebras de linha
 
 const cachorro = "Mel"
 const raca = 'viralata'
